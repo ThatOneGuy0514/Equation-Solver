@@ -125,6 +125,8 @@ def solver(equation):
     for detail in details_list:
         output_string += f'{detail}\n'
     return output_string
+    
+# Example usage — omit or modify these lines if using this module elsewhere
 lin_eq = LinearEquation(2, 3)
 quadr_eq = QuadraticEquation(1, 5, 3)
 print(solver(quadr_eq))
